@@ -1,0 +1,58 @@
+.game-over {
+    max-width: 600px; /* Center the container and limit its width */
+    margin: 50px auto; /* Center vertically and horizontally */
+    padding: 30px;
+    background-color: #f9f9f9;
+    border: 3px solid #ddd; /* Add a border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .game-over h2 {
+    font-size: 36px; /* Make the heading prominent */
+    color: #ff0000; /* Eye-catching red color for "Game Over" */
+    margin-bottom: 20px;
+  }
+  
+  .game-over p {
+    font-size: 24px; /* Emphasize the score text */
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .game-over input {
+    width: 80%; /* Make the input responsive */
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px; /* Rounded corners for input */
+    box-sizing: border-box; /* Prevent layout issues */
+  }
+  
+  .game-over button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px; /* Rounded button corners */
+    cursor: pointer;
+    margin: 10px; /* Spacing between buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-over button:hover {
+    background-color: #0056b3; /* Darker hover effect */
+  }
+  
+  .game-over button:last-child {
+    background-color: #6c757d; /* Grey for the "Return to Home" button */
+  }
+  
+  .game-over button:last-child:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+  }
+  

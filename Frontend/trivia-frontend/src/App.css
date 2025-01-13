@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.title-neon {
+  font-size: 120px;
+  font-weight: bold;
+  color: #04ff00;
+  text-align: center;
+  background: linear-gradient(180deg, #000000, #10ebff);
+  text-shadow:
+    1px 1px 0 #ff0000, 
+    2px 2px 0 #e11c1c, 
+    3px 3px 0 #ff4141, 
+    4px 4px 0 #ff7d7d, 
+    5px 5px 0 #ffbebe, 
+    0 0 5px #6bc4ff, 
+    0 0 10px #6ba6ff, 
+    0 0 20px #2200ff, 
+    0 0 40px #477bff, 
+    0 0 80px #5b2eff;
+}
+
+.container {
+  background: linear-gradient(180deg, #000000, #10ebff);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.main-button {
+  width:500px;
+  height: 110px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(75deg, #ff0000, #ff7a14);
+  border: none;
+  border-radius: 12px;
+  margin: 15px 0;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.main-button:hover {
+  background: linear-gradient(90deg, #ff6b6b, #ffd93d);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.main-button:active {
+  transform: scale(0.95);
+}
